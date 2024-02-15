@@ -228,14 +228,14 @@
             <figure><img src="images/ellipse.png" alt="Shoes" /></figure>
             <div class="card-body">
               <h2 class="card-title">Ellipse</h2>
-              <p>Area(A): w X l</p>
+              <p class="text-center text-2xl">Area(A): π ab</p>
               <div>
                 <!-- width -->
                 <input
                   class="w-24 text-2xl p-2 rounded-sm"
                   type="text"
                   name=""
-                  id="rectangle-width"
+                  id="ellipse-major-radious"
                   placeholder="width"
                 />
                 <span class="mr-2 ml-4">cm</span>
@@ -244,7 +244,7 @@
                   class="w-24 text-2xl p-2 rounded-sm"
                   type="text"
                   name=""
-                  id="rectangle-length"
+                  id="ellipse-minor-radious"
                   placeholder="length"
                 />
                 <span class="mr-2 ml-4">cm</span>
@@ -252,13 +252,13 @@
 
               <div>
                 <p class="text-2xl">
-                  Area : <span id="rectangle-area"></span>
+                  Area : <span id="areaOfEllipseshow"></span>
                   <span>cm <sup>2</sup></span>
                 </p>
               </div>
 
               <div class="card-actions">
-                <button onclick="calculateRectangleArea()" class="btn btn-primary w-full">Calculate</button>
+                <button onclick="calculateEllipseArea()" class="btn btn-primary w-full">Calculate</button>
               </div>
             </div>
           </div>
@@ -277,5 +277,6 @@
     <script src="scripta/parallelogram.js"></script>
     <script src="scripta/all_Inputs.js"></script>
     <script src="scripta/pantagon.js"></script>
+    <script src="scripta/ellipse.js"></script>
   </body>
 </html>
