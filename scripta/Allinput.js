@@ -1,9 +1,0 @@
-function CalculateParallelogram(){
-
-}
-
-
-
-function getInputValueById(){
-  
-}

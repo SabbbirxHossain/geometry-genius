@@ -105,18 +105,18 @@
 
           <!-- Parallelogram card -->
           <div class="card w-96 bg-base-100 shadow-xl">
-            <figure><img src="images/parallelogram.png" alt="Shoes" /></figure>
+            <figure><img src="images/parallelogram.png" alt="#" /></figure>
             <div class="card-body">
               <h2 class="card-title">Parallelogram</h2>
-              <p>Area(A): w X l</p>
+              <p>Area(A): b X h</p>
               <div>
                 <!-- width -->
                 <input
                   class="w-24 text-2xl p-2 rounded-sm"
                   type="text"
                   name=""
-                  id="rectangle-width"
-                  placeholder="width"
+                  id="parallelogram-base"
+                  placeholder="base"
                 />
                 <span class="mr-2 ml-4">cm</span>
                 <!-- height -->
@@ -124,21 +124,21 @@
                   class="w-24 text-2xl p-2 rounded-sm"
                   type="text"
                   name=""
-                  id="rectangle-length"
-                  placeholder="length"
+                  id="parallelogram-height"
+                  placeholder="height"
                 />
                 <span class="mr-2 ml-4">cm</span>
               </div>
 
               <div>
                 <p class="text-2xl">
-                  Area : <span id="rectangle-area"></span>
+                  Area : <span id="parallelogram-area"></span>
                   <span>cm <sup>2</sup></span>
                 </p>
               </div>
 
               <div class="card-actions">
-                <button onclick="calculateRectangleArea()" class="btn btn-primary w-full">Calculate</button>
+                <button onclick="calculateParallelogramArea()" class="btn btn-primary w-full">Calculate</button>
               </div>
             </div>
           </div>
@@ -155,7 +155,7 @@
                   class="w-24 text-2xl p-2 rounded-sm"
                   type="text"
                   name=""
-                  id="rectangle-width"
+                  id="rhambos-d1"
                   placeholder="width"
                 />
                 <span class="mr-2 ml-4">cm</span>
@@ -164,47 +164,47 @@
                   class="w-24 text-2xl p-2 rounded-sm"
                   type="text"
                   name=""
-                  id="rectangle-length"
-                  placeholder="length"
+                  id="rombos-height"
+                  placeholder="height"
                 />
                 <span class="mr-2 ml-4">cm</span>
               </div>
 
               <div>
                 <p class="text-2xl">
-                  Area : <span id="rectangle-area"></span>
+                  Area : <span id="rombos-area"></span>
                   <span>cm <sup>2</sup></span>
                 </p>
               </div>
 
               <div class="card-actions">
-                <button onclick="calculateRectangleArea()" class="btn btn-primary w-full">Calculate</button>
+                <button onclick="calculateRhombos()" class="btn btn-primary w-full">Calculate</button>
               </div>
             </div>
           </div>
 
           <!-- Pentagon card -->
           <div class="card w-96 bg-base-100 shadow-xl">
-            <figure><img src="images/pentagon.png" alt="Shoes" /></figure>
+            <figure><img src="images/pentagon.png" alt="" /></figure>
             <div class="card-body">
               <h2 class="card-title">Pentagon</h2>
-              <p>Area(A): w X l</p>
+              <p class="text-center text-2xl">Area(A): 0.5 X p X b </p>
               <div>
-                <!-- width -->
+                <!-- peri -->
                 <input
                   class="w-24 text-2xl p-2 rounded-sm"
                   type="text"
                   name=""
-                  id="rectangle-width"
+                  id="pentagon-perimeter"
                   placeholder="width"
                 />
                 <span class="mr-2 ml-4">cm</span>
-                <!-- height -->
+                <!-- apo -->
                 <input
                   class="w-24 text-2xl p-2 rounded-sm"
                   type="text"
                   name=""
-                  id="rectangle-length"
+                  id="pentagon-apo"
                   placeholder="length"
                 />
                 <span class="mr-2 ml-4">cm</span>
@@ -212,13 +212,13 @@
 
               <div>
                 <p class="text-2xl">
-                  Area : <span id="rectangle-area"></span>
+                  Area : <span id="pentagon-area"></span>
                   <span>cm <sup>2</sup></span>
                 </p>
               </div>
 
               <div class="card-actions">
-                <button onclick="calculateRectangleArea()" class="btn btn-primary w-full">Calculate</button>
+                <button onclick="calculatePentagonArea()" class="btn btn-primary w-full">Calculate</button>
               </div>
             </div>
           </div>
@@ -274,6 +274,8 @@
 
     <script src="scripta/triangle.js"></script>
     <script src="scripta/rectangle.js"></script>
-    <script src="scripta/Allinput.js"></script>
+    <script src="scripta/parallelogram.js"></script>
+    <script src="scripta/all_Inputs.js"></script>
+    <script src="scripta/pantagon.js"></script>
   </body>
 </html>
